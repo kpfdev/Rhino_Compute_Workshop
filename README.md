@@ -28,9 +28,16 @@ Install the following packages in order.
 4. Select *Hops* and install
 5. Restart Rhino
 
+## Ladybug
+
+Ladybug allows you to import and analyze standard weather data in Grasshopper; draw diagrams like Sun-path, wind-rose, radiation-rose, etc; customize the diagrams in several ways; run radiation analysis, shadow studies, and view analysis.
+
+[Ladybug](https://www.food4rhino.com/en/app/ladybug-tools)
+
 [Hops Website Link](https://developer.rhino3d.com/guides/grasshopper/hops-component/)
 
-## 
+## Anaconda
+
 [Anaconda](https://docs.anaconda.com/anaconda/install/windows/)
 
 Anaconda is a distribution of the Python for scientific computing, that aims to simplify package management. The base installer comes with *Python 3.8*.
