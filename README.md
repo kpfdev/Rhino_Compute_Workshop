@@ -8,7 +8,8 @@ This tutorial will walk you through connecting a Python Jupyter Notebook to Rhin
 
 ## Agenda
 
-- Intro
+- Introduction
+- Presentation
 - Installation
 - Jupyter notebook intro 
 - Spatial analytics	
@@ -20,35 +21,24 @@ This tutorial will walk you through connecting a Python Jupyter Notebook to Rhin
 
 Install the following packages in order.
 
-## Grasshopper + HOPS
+### Anaconda
 
-1. Open Rhino 7
-2. type `PackageManger` in the Rhino command line.
-3. search for *Hops*
-4. Select *Hops* and install
-5. Restart Rhino
-
-## Ladybug
-
-Ladybug allows you to import and analyze standard weather data in Grasshopper; draw diagrams like Sun-path, wind-rose, radiation-rose, etc; customize the diagrams in several ways; run radiation analysis, shadow studies, and view analysis.
-
-[Ladybug](https://www.food4rhino.com/en/app/ladybug-tools)
-
-[Hops Website Link](https://developer.rhino3d.com/guides/grasshopper/hops-component/)
-
-## Anaconda
-
-[Anaconda](https://docs.anaconda.com/anaconda/install/windows/)
+[Installation Link](https://docs.anaconda.com/anaconda/install/windows/)
 
 Anaconda is a distribution of the Python for scientific computing, that aims to simplify package management. The base installer comes with *Python 3.8*.
 
-Once installed, open the `CMD.exe Promp`
+Once installed, open the `CMD.exe Prompt`
 
 ![cmd-prompt-example](imgs/anaconda_install_1.png)
 
 This will open a command prompt in the *conda* default *base* environment. From here you can install all packages.
 
+![cmd-prompt-example-2](imgs/anaconda_install_2.png)
+
 ### Jupyter-Lab
+
+If Jupyter Lab is not shown in the *Anaconda Navigator* install using the following.
+
 [Jupyter Lab Homepage](https://jupyter.org/install)
 
 `pip install jupyterlab`
@@ -77,7 +67,7 @@ GeoPandas is an open source project to make working with geospatial data in pyth
 
 `conda install geopandas`
 
-## SkLearn
+### SkLearn
 
 `Scikit-learn` is an open source machine learning library that supports supervised and unsupervised learning. It also provides various tools for model fitting, data preprocessing, model selection and evaluation, and many other utilities. We will be using [Kmeans](https://scikit-learn.org/stable/modules/generated/sklearn.cluster.KMeans.html) clustering to cluster simliar tax lots together and color them.
 
@@ -85,9 +75,17 @@ GeoPandas is an open source project to make working with geospatial data in pyth
 
 `pip install scikit-learn`
 
-### Rhino Compute/HOPS
 
-[Grasshopper + HOPS](https://developer.rhino3d.com/guides/grasshopper/hops-component/)
+### Ladybug
+
+Ladybug allows you to import and analyze standard weather data in Grasshopper; draw diagrams like Sun-path, wind-rose, radiation-rose, etc; customize the diagrams in several ways; run radiation analysis, shadow studies, and view analysis.
+
+[Installation Link](https://www.food4rhino.com/en/app/ladybug-tools)
+
+### Grasshopper + HOPS
+
+[Hops Website Link](https://developer.rhino3d.com/guides/grasshopper/hops-component/)
+
 
 1. Open Rhino 7
 2. type `PackageManger` in the Rhino command line.
@@ -108,15 +106,3 @@ Open Grasshopper and go to *Preferences* --> *Solver* and uncheck *Hide Rhino Co
 **Debug Environmental Variable**
 
 To see debug messages during development in the *Rhino Compute* terminal window (Windows) go to *Edit System Environment Variables* --> *System Variables* and create a *New* variable *RHINO_COMPUTE_DEBUG* and set to `true`
-
-
-### References
-
-[Pip](https://jupyter.org/install)
-
-To check if Pip installed on your machine, in *Powershell* or *Terminal*.
-
-```
-python -m pip --version
->> pip 20.1.1 from C:\Python38\lib\site-packages\pip (python 3.8)
-```
