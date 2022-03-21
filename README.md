@@ -1,4 +1,4 @@
-# AEC_Python_Rhino_Compute_Workshop
+# Rhino Compute Workshop
 
 ## Introduction
 
