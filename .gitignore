@@ -2,3 +2,8 @@
 *.rhl
 notebooks/.ipynb_checkpoints/compute-checkpoint.ipynb
 notebooks/key.py
+
+*ipynb_checkpoints/**
+key.py
+__pycache__/
+notebooks/.ipynb_checkpoints/funcs-checkpoint.py
