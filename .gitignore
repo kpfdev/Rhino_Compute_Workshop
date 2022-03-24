@@ -7,3 +7,5 @@ notebooks/key.py
 key.py
 __pycache__/
 notebooks/.ipynb_checkpoints/funcs-checkpoint.py
+data/nyc_pluto_21v2_csv/.ipynb_checkpoints/PLUTODD21v2-checkpoint.pdf
+Rhino/manhattan_cluster_tax_lots.3dm
